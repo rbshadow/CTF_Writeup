@@ -1,34 +1,34 @@
 ### 1. Forensics Warmup 1 - Points: 50
-→ Can you unzip this file for me and retreive the flag? 
+Can you unzip this file for me and retreive the flag? 
 
 #### Solution: 
 
-1. Download the file and Unzip.
+1. Download the file and Unzip
 2. Open flag.jpg file. Here found the flag.
 
 ### 2. Reversing Warmup 1 - Points: 50
-→ Throughout your journey you will have to run many programs. Can you navigate to `/problems/reversing-warmup-1_3_7c0eade7faf60ffe3485e12098e2a6c2` on the shell server and run this program to retreive the flag? 
+Throughout your journey you will have to run many programs. Can you navigate to `/problems/reversing-warmup-1_3_7c0eade7faf60ffe3485e12098e2a6c2` on the shell server and run this program to retreive the flag? 
 
 #### Solution:
 
-1  Access the shell and connect.
-2 Login with credentials like teamname and password.
-3 Navigate to `/problems/reversing-warmup-1_3_7c0eade7faf60ffe3485e12098e2a6c2` directory with `cd /problems/reversing-warmup-1_3_7c0eade7faf60ffe3485e12098e2a6c2`
-4 Check files with ls -l command. Here can see the file has executable permission.
+1. Access the shell and connect.
+2. Login with credentials like teamname and password.
+3. Navigate to `/problems/reversing-warmup-1_3_7c0eade7faf60ffe3485e12098e2a6c2` directory with `cd /problems/reversing-warmup-1_3_7c0eade7faf60ffe3485e12098e2a6c2`
+4. Check files with ls -l command. Here can see the file has executable permission.
 `-rwxr-sr-x 1 hacksports reversing-warmup-1_3 7420 Sep 28 08:34 run`
 
-5 Run the file with `./run`
-6 Final flag is: `picoCTF{welc0m3_t0_r3VeRs1nG}`
+5. Run the file with `./run`
+6. Final flag is: `picoCTF{welc0m3_t0_r3VeRs1nG}`
 
 ### 3. Reversing Warmup 2 - Points: 50
 Can you decode the following string dGg0dF93NHNfczFtcEwz from base64 format to ASCII? 
 
 #### Solution:
 
-1 Run terminal
-2 Run command:   `echo ‘dGg0dF93NHNfczFtcEwz’ | base64 --decode > flag.txt`
-3 Run command: `nano flag.txt`
-4 Final flag is: `picoCTF{th4t_w4s_s1mpL3}`
+1. Run terminal
+2. Run command:   `echo ‘dGg0dF93NHNfczFtcEwz’ | base64 --decode > flag.txt`
+3. Run command: `nano flag.txt`
+4. Final flag is: `picoCTF{th4t_w4s_s1mpL3}`
 
 ### 4. Crypto Warmup 1 - Points: 75
 Crpyto can often be done by hand, here's a message you got from a friend, llkjmlmpadkkc with the key of thisisalilkey. Can you use this table to solve it?. 
